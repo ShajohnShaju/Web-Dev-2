@@ -171,6 +171,10 @@ nav ul li {
 footer {
     display: block;
     text-align: center;
+    position: fixed;
+    top: 90%;
+    left: 40vw;
+    color: white;
 }
 
 

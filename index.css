@@ -185,6 +185,13 @@ font: Courier;
 
 /* this section contains the css styling for the photo on the homepage */
 
+.portrait-section {
+display: flex;
+justify-content: center;
+padding-top: 3em;
+}
+
+
 .portrait {
     width: 12em;
     height: auto;
@@ -196,6 +203,10 @@ font: Courier;
 footer {
     display: block;
     text-align: center;
+    position: fixed;
+    top: 90%;
+    left: 40vw;
+    color: white;
 }
 
 
