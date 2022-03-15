@@ -179,13 +179,8 @@ body main p {
 text-align: center;
 font-size: 1em;
 color: white;
-font-family: 'Courier New', Courier, monospace;
+font: Courier;
 }
-
-
-
-
-
 
 
 /* this section contains the css styling for the photo on the homepage */
@@ -202,8 +197,6 @@ footer {
     display: block;
     text-align: center;
 }
-
-
 
 
 /* this section below contains the css styling for the mobile view */

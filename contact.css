@@ -165,6 +165,15 @@ nav ul li {
     display: inline;
 }
 
+/* this is the css styling for the footer */
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+
+
 /* this section below contains the css styling for the mobile view */
 
 @media screen and (max-width: 800px) {
