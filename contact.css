@@ -137,6 +137,7 @@ section .dot {
 header h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 header a {
@@ -167,6 +168,13 @@ nav ul li {
     list-style: none;
     display: inline;
 }
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /* this is the css styling to centre the main section  */
 main {
@@ -209,7 +217,7 @@ footer {
     text-align: center;
     position: fixed;
     top: 90%;
-    left: 40vw;
+    left: 44vw;
     color: white;
 }
 
@@ -298,10 +306,13 @@ footer {
     /* this section contains the css code for the footer */
 
     footer {
+        display: block;
+        text-align: center;
+        position: fixed;
+        top: 90vh;
         color: white;
-        grid-area: footer;
     }
-
+    
 
     /* this section contains the css code for the grid layout for the body */
 

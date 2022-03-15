@@ -134,6 +134,7 @@ section .dot {
 header h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 header a {
@@ -165,6 +166,12 @@ nav ul li {
     display: inline;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
 /* this section contains the css styling for the introduction paragraph */
 
 body main h1 {
@@ -172,6 +179,7 @@ body main h1 {
     font-size: 2em;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
 }
 
 
@@ -205,7 +213,7 @@ footer {
     text-align: center;
     position: fixed;
     top: 90%;
-    left: 40vw;
+    left: 44vw;
     color: white;
 }
 
@@ -292,10 +300,13 @@ footer {
 
 /* this section contains the css code for the footer */
 
-    footer {
-        color: white;
-        grid-area: footer;
-    }
+footer {
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 90vh;
+    color: white;
+}
 
 
 /* this section contains the css code for the grid layout for the body */
