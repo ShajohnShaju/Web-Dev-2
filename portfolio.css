@@ -67,3 +67,7 @@ h4{
     border: 2px solid aqua;
     cursor: pointer;
 }
+
+.rmbutton{
+    text-align: center;
+}
