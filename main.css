@@ -180,9 +180,9 @@ nav ul li a {
 footer {
     display: block;
     text-align: center;
-    position: fixed;
+    position: sticky;
     top: 90%;
-    left: 44vw;
+    left: 40vw;
     color: white;
     text-decoration: none;
 }
